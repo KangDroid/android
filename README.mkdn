@@ -16,8 +16,9 @@ sync repo :
 	
 NOTE
 ======
-If you are building kdp_hammerhead(KDP Nexus 5), and you are building with no-SaberMod gcc, and if you are building with MacOSX(Yosemite) You have to modify some settings. Go to .repo/local_manifest/roomservice.xml, edit kernel line to  This one   
- "<project name="KangDroid/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="mac"/> "
+If you are building kdp_hammerhead(KDP Nexus 5), and you are building with no-SaberMod gcc, and if you are building with MacOSX(Yosemite) You have to modify some settings. Go to .repo/local_manifest/roomservice.xml, add this function(?): revision="mac" 
+add to the end of kernel line (Just after remote="github")
+
 
 It doesn't matter if you are using linux. Current cm-12.0 branch is for ONLY SaberMod-4.8 GCC.
 
