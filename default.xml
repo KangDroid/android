@@ -17,6 +17,8 @@
            sync-c="true"
            sync-j="4" />
 
+		   <!-- Somewhen this core sources will change to Private -->
+
   <project path="build" name="KangDroid/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
