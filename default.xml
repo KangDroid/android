@@ -241,6 +241,7 @@
   <project path="external/lzma" name="platform/external/lzma" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
+  <project path="external/openssh" name="KangDroid/android_external_openssh" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
