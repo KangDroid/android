@@ -276,6 +276,7 @@
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <!-- <project path="external/powertop" name="CyanogenMod/android_external_powertop" /> -->
+  <project path="external/wakeonlan" name="KangDroid/android_external_wakeonlan" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
