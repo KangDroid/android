@@ -468,8 +468,7 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/ScreenRecorder" name="temasek/android_packages_apps_ScreenRecorder" />
-  <project path="packages/apps/OmniSwitch" name="temasek/android_packages_apps_OmniSwitch" />
+  <project path="packages/apps/OmniSwitch" name="KangDroid/android_packages_apps_OmniSwitch" />
   <project path="packages/apps/Settings" name="KangDroid/android_packages_apps_Settings" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
