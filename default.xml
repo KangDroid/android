@@ -27,7 +27,7 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="KangDroid/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="KangDroid/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
@@ -86,7 +86,7 @@
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" />
-  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" />
+  <project path="external/chromium_org/third_party/WebKit" name="KangDroid/android_external_chromium_org_third_party_WebKit" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" />
   <project path="external/chromium_org/third_party/boringssl/src" name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" remote="aosp" />
@@ -546,8 +546,8 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="KangDroid/arm-linux-androideabi-4.9" remote="github" revision="4.9-test" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="KangDroid/arm-linux-androideabi-4.9" remote="github" revision="4.9-test" /> <!-- Revision needed -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="arter97/arm-linux-androideabi-5.1" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="arter97/arm-linux-androideabi-5.1" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" />
@@ -560,7 +560,7 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" remote="aosp" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" />
+  <project path="prebuilts/ndk" name="KangDroid/android_prebuilt_ndk" remote="github" revision="cm-12.1" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
@@ -589,4 +589,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/kdp" name="KangDroid/android_vendor_ackdp" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 </manifest>
