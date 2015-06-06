@@ -17,7 +17,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="kdp"
-           fetch="https://gitlab.com/KangDroid/" />
+           fetch="git@gitlab.com:KangDroid/" />
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
