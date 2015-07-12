@@ -9,6 +9,12 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+		   
+  <remote name="kdpcm"
+	      fetch="https://github.com/CyanogenMod" />
+
+  <remote name="slte"
+		  fetch="https://github.com/qkdxorjs1002" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
