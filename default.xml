@@ -15,6 +15,8 @@
 
   <remote name="slte"
 		  fetch="https://github.com/qkdxorjs1002" />
+<remote name="cm"
+fetch="https://github.com/CyanogenMod" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
