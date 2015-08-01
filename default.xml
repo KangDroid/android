@@ -223,7 +223,7 @@ fetch="https://github.com/CyanogenMod" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
+  <project path="external/libpng" name="KangDroid/android_external_libpng" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
@@ -563,6 +563,7 @@ fetch="https://github.com/CyanogenMod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="KangDroid/linaro-arm-linux-android-eabi" remote="github" revision="6.0-test" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" groups="pdk,linux,mips" remote="aosp" />
@@ -601,6 +602,7 @@ fetch="https://github.com/CyanogenMod" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
+  <project path="vendor/sm" name="KangDroid/android-vendor-sabermod" revision="master" />
   <project path="vendor/kdp" name="KangDroid/android_vendor_ackdp" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 </manifest>
