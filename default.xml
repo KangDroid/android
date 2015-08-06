@@ -282,7 +282,7 @@ fetch="https://github.com/CyanogenMod" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
+  <project path="external/openssl" name="KangDroid/android_external_openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
