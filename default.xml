@@ -607,5 +607,5 @@ fetch="https://github.com/CyanogenMod" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/sm" name="KangDroid/android-vendor-sabermod" revision="macosx" />
   <project path="vendor/kdp" name="KangDroid/android_vendor_ackdp" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <project path="vendor/cmsdk" name="KangDroid/cm_platform_sdk" />
 </manifest>
