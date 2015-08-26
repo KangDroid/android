@@ -33,7 +33,7 @@ fetch="https://github.com/CyanogenMod" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="KangDroid/android" />
+  <project path="android" name="KangDroid/android" revision="macosx" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
